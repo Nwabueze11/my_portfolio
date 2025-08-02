@@ -221,10 +221,22 @@ export default function Portfolio() {
       <section className="min-h-[50vh] flex flex-col items-center justify-center text-center px-4 bg-transparent">
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 animate-name">Hi, I'm Nwabueze. G. C</h1>
         <p className="text-lg sm:text-2xl md:text-3xl mb-6 font-semibold">Front-End Developer who loves clean and responsive design.</p>
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-          <a href="#projects" className="bg-blue-600 text-white text-lg sm:text-xl px-4 py-2 rounded-xl font-bold shadow-lg hover:bg-blue-700 animate-link dark:bg-blue-800 dark:hover:bg-blue-900">View Projects</a>
-          <a href="#contact" className="border-2 border-blue-600 text-blue-600 text-lg sm:text-xl px-4 py-2 rounded-xl font-bold shadow-lg hover:bg-blue-600 hover:text-white animate-link dark:border-blue-400 dark:text-blue-300 dark:hover:bg-blue-700 dark:hover:text-white">Contact Me</a>
-          <DownloadCV />
+        <div className="flex flex-col sm:flex-row sm:justify-center items-center gap-4 sm:gap-6 w-full max-w-md mx-auto">
+          <a
+            href="#projects"
+            className="bg-blue-600 text-white text-lg sm:text-xl px-4 py-2 rounded-xl font-bold shadow-lg hover:bg-blue-700 animate-link dark:bg-blue-800 dark:hover:bg-blue-900 w-full sm:w-auto text-center"
+          >
+            View Projects
+          </a>
+          <a
+            href="#contact"
+            className="border-2 border-blue-600 text-blue-600 text-lg sm:text-xl px-4 py-2 rounded-xl font-bold shadow-lg hover:bg-blue-600 hover:text-white animate-link dark:border-blue-400 dark:text-blue-300 dark:hover:bg-blue-700 dark:hover:text-white w-full sm:w-auto text-center"
+          >
+            Contact Me
+          </a>
+          <div className="w-full sm:w-auto flex justify-center">
+            <DownloadCV />
+          </div>
         </div>
       </section>
 
